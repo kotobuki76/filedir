@@ -18,6 +18,6 @@ func GetInfrastructureDir() (string, error) {
 		}
 		return filepath.Dir(file), nil
 	} else {
-		return GetCurrentDir() + "/infrastructure", nil
+		return GetCurrentDir() + "infrastructure", nil
 	}
 }
